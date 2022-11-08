@@ -16,6 +16,9 @@ git branch -M main
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # 如果你想要部署到 https://USERNAME.github.io
+# 这个是部署到GitHub上的
 git push -f git@github.com:heerting/heerting.github.io.git main
 
+#这个是部署到阿里云服务器上的
+# git push -f git@182.92.100.219:/home/www/website/blog.git master
 cd -
