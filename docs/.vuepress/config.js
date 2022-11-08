@@ -14,7 +14,7 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: '请进',
+                title: '请进heerting blog',
                 path: '/',
                 collapsable: false,
                 children: [
