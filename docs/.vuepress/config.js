@@ -11,6 +11,16 @@ module.exports = {
                     { text: '掘金', link: 'https://juejin.cn' }
                 ]
             }
+        ],
+        sidebar: [
+            {
+                title: '请进',
+                path: '/',
+                collapsable: false,
+                children: [
+                    { title: '开始必读', path: '/' }
+                ]
+            }
         ]
     }
 }
